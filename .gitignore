@@ -1,0 +1,28 @@
+# Jupyter Notebook outputs and checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython config
+profile_default/
+ipython_config.py
+
+# CSV files
+*.csv
+
+# Automatically generated notebook outputs (if exported as scripts or other formats)
+*.nbconvert.*
+*.out
+.DS_Store
+
+# Hidden notebook metadata or cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Optional: remove notebook output cells on commit (recommended using nbstripout or pre-commit hook)
+# For example, install and configure nbstripout:
+#   pip install nbstripout
+#   nbstripout --install
+
+# End of custom Jupyter settings
